@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+.flex{
+    display: flex;
+
+}
+body{
+    background-color: darkgray;
+}
+.container{
+    background-color: #f3f3f3;
+    width: 40%;
+    margin: 10% auto;
+    padding-top: 20px;  
+}
+.flex div{
+    width: 25%;
+    padding: 15px;
+    background-color: rgb(193, 202, 193);
+    border: 1px solid rgb(78, 77, 77);
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+.flex div:hover{
+    background-color: rgba(193,202,193,0.4);
+}
+#zero{
+    width: 50%;
+}
+#output{
+    text-align: right;
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
