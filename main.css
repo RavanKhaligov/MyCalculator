@@ -38,12 +38,17 @@ body{
 }
 @media screen and (max-width:768px) and (min-width:592px){
     .container{
+        position: absolute;
+        bottom: 0;
+        left: 10%;
         width: 80%;
     }
 
 }
 @media only screen and (max-width:592px) {
     .container{
+        position: absolute;
+        bottom: 0;
         width: 100%;
     }
     
